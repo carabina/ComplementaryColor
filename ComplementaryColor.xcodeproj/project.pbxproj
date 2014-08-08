@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD46D6B1994D2CA0030A576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D6A1994D2CA0030A576 /* Foundation.framework */; };
+		BFD46D6D1994D2CA0030A576 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D6C1994D2CA0030A576 /* CoreGraphics.framework */; };
+		BFD46D6F1994D2CA0030A576 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D6E1994D2CA0030A576 /* UIKit.framework */; };
+		BFD46D751994D2CA0030A576 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD46D731994D2CA0030A576 /* InfoPlist.strings */; };
+		BFD46D771994D2CA0030A576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46D761994D2CA0030A576 /* main.m */; };
+		BFD46D7B1994D2CA0030A576 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46D7A1994D2CA0030A576 /* CPAppDelegate.m */; };
+		BFD46D7E1994D2CA0030A576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD46D7C1994D2CA0030A576 /* Main.storyboard */; };
+		BFD46D811994D2CA0030A576 /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46D801994D2CA0030A576 /* CPViewController.m */; };
+		BFD46D831994D2CA0030A576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD46D821994D2CA0030A576 /* Images.xcassets */; };
+		BFD46D8A1994D2CA0030A576 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D891994D2CA0030A576 /* XCTest.framework */; };
+		BFD46D8B1994D2CA0030A576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D6A1994D2CA0030A576 /* Foundation.framework */; };
+		BFD46D8C1994D2CA0030A576 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D6E1994D2CA0030A576 /* UIKit.framework */; };
+		BFD46D941994D2CA0030A576 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD46D921994D2CA0030A576 /* InfoPlist.strings */; };
+		BFD46D961994D2CA0030A576 /* ComplementaryColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46D951994D2CA0030A576 /* ComplementaryColorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD46D8D1994D2CA0030A576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD46D5F1994D2CA0030A576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD46D661994D2CA0030A576;
+			remoteInfo = ComplementaryColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFD46D671994D2CA0030A576 /* ComplementaryColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplementaryColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD46D6A1994D2CA0030A576 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFD46D6C1994D2CA0030A576 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFD46D6E1994D2CA0030A576 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFD46D721994D2CA0030A576 /* ComplementaryColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComplementaryColor-Info.plist"; sourceTree = "<group>"; };
+		BFD46D741994D2CA0030A576 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFD46D761994D2CA0030A576 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFD46D781994D2CA0030A576 /* ComplementaryColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComplementaryColor-Prefix.pch"; sourceTree = "<group>"; };
+		BFD46D791994D2CA0030A576 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
+		BFD46D7A1994D2CA0030A576 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
+		BFD46D7D1994D2CA0030A576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD46D7F1994D2CA0030A576 /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
+		BFD46D801994D2CA0030A576 /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
+		BFD46D821994D2CA0030A576 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFD46D881994D2CA0030A576 /* ComplementaryColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplementaryColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD46D891994D2CA0030A576 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFD46D911994D2CA0030A576 /* ComplementaryColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComplementaryColorTests-Info.plist"; sourceTree = "<group>"; };
+		BFD46D931994D2CA0030A576 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFD46D951994D2CA0030A576 /* ComplementaryColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplementaryColorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD46D641994D2CA0030A576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD46D6D1994D2CA0030A576 /* CoreGraphics.framework in Frameworks */,
+				BFD46D6F1994D2CA0030A576 /* UIKit.framework in Frameworks */,
+				BFD46D6B1994D2CA0030A576 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD46D851994D2CA0030A576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD46D8A1994D2CA0030A576 /* XCTest.framework in Frameworks */,
+				BFD46D8C1994D2CA0030A576 /* UIKit.framework in Frameworks */,
+				BFD46D8B1994D2CA0030A576 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD46D5E1994D2CA0030A576 = {
+			isa = PBXGroup;
+			children = (
+				BFD46D701994D2CA0030A576 /* ComplementaryColor */,
+				BFD46D8F1994D2CA0030A576 /* ComplementaryColorTests */,
+				BFD46D691994D2CA0030A576 /* Frameworks */,
+				BFD46D681994D2CA0030A576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD46D681994D2CA0030A576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD46D671994D2CA0030A576 /* ComplementaryColor.app */,
+				BFD46D881994D2CA0030A576 /* ComplementaryColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD46D691994D2CA0030A576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFD46D6A1994D2CA0030A576 /* Foundation.framework */,
+				BFD46D6C1994D2CA0030A576 /* CoreGraphics.framework */,
+				BFD46D6E1994D2CA0030A576 /* UIKit.framework */,
+				BFD46D891994D2CA0030A576 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD46D701994D2CA0030A576 /* ComplementaryColor */ = {
+			isa = PBXGroup;
+			children = (
+				BFD46D791994D2CA0030A576 /* CPAppDelegate.h */,
+				BFD46D7A1994D2CA0030A576 /* CPAppDelegate.m */,
+				BFD46D7C1994D2CA0030A576 /* Main.storyboard */,
+				BFD46D7F1994D2CA0030A576 /* CPViewController.h */,
+				BFD46D801994D2CA0030A576 /* CPViewController.m */,
+				BFD46D821994D2CA0030A576 /* Images.xcassets */,
+				BFD46D711994D2CA0030A576 /* Supporting Files */,
+			);
+			path = ComplementaryColor;
+			sourceTree = "<group>";
+		};
+		BFD46D711994D2CA0030A576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD46D721994D2CA0030A576 /* ComplementaryColor-Info.plist */,
+				BFD46D731994D2CA0030A576 /* InfoPlist.strings */,
+				BFD46D761994D2CA0030A576 /* main.m */,
+				BFD46D781994D2CA0030A576 /* ComplementaryColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFD46D8F1994D2CA0030A576 /* ComplementaryColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD46D951994D2CA0030A576 /* ComplementaryColorTests.m */,
+				BFD46D901994D2CA0030A576 /* Supporting Files */,
+			);
+			path = ComplementaryColorTests;
+			sourceTree = "<group>";
+		};
+		BFD46D901994D2CA0030A576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD46D911994D2CA0030A576 /* ComplementaryColorTests-Info.plist */,
+				BFD46D921994D2CA0030A576 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD46D661994D2CA0030A576 /* ComplementaryColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD46D991994D2CA0030A576 /* Build configuration list for PBXNativeTarget "ComplementaryColor" */;
+			buildPhases = (
+				BFD46D631994D2CA0030A576 /* Sources */,
+				BFD46D641994D2CA0030A576 /* Frameworks */,
+				BFD46D651994D2CA0030A576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplementaryColor;
+			productName = ComplementaryColor;
+			productReference = BFD46D671994D2CA0030A576 /* ComplementaryColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD46D871994D2CA0030A576 /* ComplementaryColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD46D9C1994D2CA0030A576 /* Build configuration list for PBXNativeTarget "ComplementaryColorTests" */;
+			buildPhases = (
+				BFD46D841994D2CA0030A576 /* Sources */,
+				BFD46D851994D2CA0030A576 /* Frameworks */,
+				BFD46D861994D2CA0030A576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD46D8E1994D2CA0030A576 /* PBXTargetDependency */,
+			);
+			name = ComplementaryColorTests;
+			productName = ComplementaryColorTests;
+			productReference = BFD46D881994D2CA0030A576 /* ComplementaryColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD46D5F1994D2CA0030A576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Brickoapps;
+				TargetAttributes = {
+					BFD46D871994D2CA0030A576 = {
+						TestTargetID = BFD46D661994D2CA0030A576;
+					};
+				};
+			};
+			buildConfigurationList = BFD46D621994D2CA0030A576 /* Build configuration list for PBXProject "ComplementaryColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD46D5E1994D2CA0030A576;
+			productRefGroup = BFD46D681994D2CA0030A576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD46D661994D2CA0030A576 /* ComplementaryColor */,
+				BFD46D871994D2CA0030A576 /* ComplementaryColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD46D651994D2CA0030A576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD46D831994D2CA0030A576 /* Images.xcassets in Resources */,
+				BFD46D751994D2CA0030A576 /* InfoPlist.strings in Resources */,
+				BFD46D7E1994D2CA0030A576 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD46D861994D2CA0030A576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD46D941994D2CA0030A576 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD46D631994D2CA0030A576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD46D771994D2CA0030A576 /* main.m in Sources */,
+				BFD46D7B1994D2CA0030A576 /* CPAppDelegate.m in Sources */,
+				BFD46D811994D2CA0030A576 /* CPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD46D841994D2CA0030A576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD46D961994D2CA0030A576 /* ComplementaryColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD46D8E1994D2CA0030A576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD46D661994D2CA0030A576 /* ComplementaryColor */;
+			targetProxy = BFD46D8D1994D2CA0030A576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFD46D731994D2CA0030A576 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD46D741994D2CA0030A576 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFD46D7C1994D2CA0030A576 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD46D7D1994D2CA0030A576 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD46D921994D2CA0030A576 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD46D931994D2CA0030A576 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD46D971994D2CA0030A576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFD46D981994D2CA0030A576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD46D9A1994D2CA0030A576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplementaryColor/ComplementaryColor-Prefix.pch";
+				INFOPLIST_FILE = "ComplementaryColor/ComplementaryColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFD46D9B1994D2CA0030A576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplementaryColor/ComplementaryColor-Prefix.pch";
+				INFOPLIST_FILE = "ComplementaryColor/ComplementaryColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFD46D9D1994D2CA0030A576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ComplementaryColor.app/ComplementaryColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplementaryColor/ComplementaryColor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ComplementaryColorTests/ComplementaryColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFD46D9E1994D2CA0030A576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ComplementaryColor.app/ComplementaryColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComplementaryColor/ComplementaryColor-Prefix.pch";
+				INFOPLIST_FILE = "ComplementaryColorTests/ComplementaryColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD46D621994D2CA0030A576 /* Build configuration list for PBXProject "ComplementaryColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD46D971994D2CA0030A576 /* Debug */,
+				BFD46D981994D2CA0030A576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD46D991994D2CA0030A576 /* Build configuration list for PBXNativeTarget "ComplementaryColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD46D9A1994D2CA0030A576 /* Debug */,
+				BFD46D9B1994D2CA0030A576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFD46D9C1994D2CA0030A576 /* Build configuration list for PBXNativeTarget "ComplementaryColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD46D9D1994D2CA0030A576 /* Debug */,
+				BFD46D9E1994D2CA0030A576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFD46D5F1994D2CA0030A576 /* Project object */;
+}
