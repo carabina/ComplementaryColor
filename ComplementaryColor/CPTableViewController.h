@@ -1,5 +1,5 @@
 //
-//  CPViewController.h
+//  CPTableViewController.h
 //  ComplementaryColor
 //
 //  Created by Jun Xiu Chan on 8/8/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CPViewController : UIViewController
+@interface CPTableViewController : UITableViewController
 
 @end

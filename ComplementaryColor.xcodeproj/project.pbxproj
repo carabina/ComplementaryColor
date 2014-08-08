@@ -14,13 +14,15 @@
 		BFD46D771994D2CA0030A576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46D761994D2CA0030A576 /* main.m */; };
 		BFD46D7B1994D2CA0030A576 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46D7A1994D2CA0030A576 /* CPAppDelegate.m */; };
 		BFD46D7E1994D2CA0030A576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD46D7C1994D2CA0030A576 /* Main.storyboard */; };
-		BFD46D811994D2CA0030A576 /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46D801994D2CA0030A576 /* CPViewController.m */; };
 		BFD46D831994D2CA0030A576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD46D821994D2CA0030A576 /* Images.xcassets */; };
 		BFD46D8A1994D2CA0030A576 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D891994D2CA0030A576 /* XCTest.framework */; };
 		BFD46D8B1994D2CA0030A576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D6A1994D2CA0030A576 /* Foundation.framework */; };
 		BFD46D8C1994D2CA0030A576 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD46D6E1994D2CA0030A576 /* UIKit.framework */; };
 		BFD46D941994D2CA0030A576 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD46D921994D2CA0030A576 /* InfoPlist.strings */; };
 		BFD46D961994D2CA0030A576 /* ComplementaryColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46D951994D2CA0030A576 /* ComplementaryColorTests.m */; };
+		BFD46DA11994D2E60030A576 /* UIColor+ComplementaryColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46DA01994D2E60030A576 /* UIColor+ComplementaryColor.m */; };
+		BFD46DA51994E0680030A576 /* CPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46DA41994E0680030A576 /* CPTableViewCell.m */; };
+		BFD46DA81994E09E0030A576 /* CPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD46DA71994E09E0030A576 /* CPTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		BFD46D791994D2CA0030A576 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
 		BFD46D7A1994D2CA0030A576 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
 		BFD46D7D1994D2CA0030A576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFD46D7F1994D2CA0030A576 /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
-		BFD46D801994D2CA0030A576 /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
 		BFD46D821994D2CA0030A576 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BFD46D881994D2CA0030A576 /* ComplementaryColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplementaryColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD46D891994D2CA0030A576 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BFD46D911994D2CA0030A576 /* ComplementaryColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComplementaryColorTests-Info.plist"; sourceTree = "<group>"; };
 		BFD46D931994D2CA0030A576 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFD46D951994D2CA0030A576 /* ComplementaryColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplementaryColorTests.m; sourceTree = "<group>"; };
+		BFD46D9F1994D2E60030A576 /* UIColor+ComplementaryColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ComplementaryColor.h"; sourceTree = "<group>"; };
+		BFD46DA01994D2E60030A576 /* UIColor+ComplementaryColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ComplementaryColor.m"; sourceTree = "<group>"; };
+		BFD46DA31994E0680030A576 /* CPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewCell.h; sourceTree = "<group>"; };
+		BFD46DA41994E0680030A576 /* CPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTableViewCell.m; sourceTree = "<group>"; };
+		BFD46DA61994E09E0030A576 /* CPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewController.h; sourceTree = "<group>"; };
+		BFD46DA71994E09E0030A576 /* CPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +118,16 @@
 		BFD46D701994D2CA0030A576 /* ComplementaryColor */ = {
 			isa = PBXGroup;
 			children = (
+				BFD46DA21994DFDD0030A576 /* ComplementaryColor */,
 				BFD46D791994D2CA0030A576 /* CPAppDelegate.h */,
 				BFD46D7A1994D2CA0030A576 /* CPAppDelegate.m */,
 				BFD46D7C1994D2CA0030A576 /* Main.storyboard */,
-				BFD46D7F1994D2CA0030A576 /* CPViewController.h */,
-				BFD46D801994D2CA0030A576 /* CPViewController.m */,
 				BFD46D821994D2CA0030A576 /* Images.xcassets */,
 				BFD46D711994D2CA0030A576 /* Supporting Files */,
+				BFD46DA31994E0680030A576 /* CPTableViewCell.h */,
+				BFD46DA41994E0680030A576 /* CPTableViewCell.m */,
+				BFD46DA61994E09E0030A576 /* CPTableViewController.h */,
+				BFD46DA71994E09E0030A576 /* CPTableViewController.m */,
 			);
 			path = ComplementaryColor;
 			sourceTree = "<group>";
@@ -150,6 +159,15 @@
 				BFD46D921994D2CA0030A576 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFD46DA21994DFDD0030A576 /* ComplementaryColor */ = {
+			isa = PBXGroup;
+			children = (
+				BFD46D9F1994D2E60030A576 /* UIColor+ComplementaryColor.h */,
+				BFD46DA01994D2E60030A576 /* UIColor+ComplementaryColor.m */,
+			);
+			name = ComplementaryColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD46DA81994E09E0030A576 /* CPTableViewController.m in Sources */,
 				BFD46D771994D2CA0030A576 /* main.m in Sources */,
 				BFD46D7B1994D2CA0030A576 /* CPAppDelegate.m in Sources */,
-				BFD46D811994D2CA0030A576 /* CPViewController.m in Sources */,
+				BFD46DA11994D2E60030A576 /* UIColor+ComplementaryColor.m in Sources */,
+				BFD46DA51994E0680030A576 /* CPTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
